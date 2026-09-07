@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520">
+<defs>
+ <radialGradient id="s"><stop stop-color="#bffaff"/><stop offset=".35" stop-color="#18d7e8"/><stop offset=".72" stop-color="#073b66"/><stop offset="1" stop-color="#020712"/></radialGradient>
+ <radialGradient id="i"><stop stop-color="#9ffcff"/><stop offset=".35" stop-color="#00a8c6"/><stop offset=".8" stop-color="#06345b"/><stop offset="1" stop-color="#01040a"/></radialGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d9faff"/><stop offset=".25" stop-color="#526b82"/><stop offset=".5" stop-color="#d7e6ed"/><stop offset="1" stop-color="#1a2a3a"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <clipPath id="eye"><path d="M90 260 Q500 35 910 260 Q500 485 90 260Z"/></clipPath>
+</defs>
+<rect width="1000" height="520" rx="28" fill="#030711"/>
+<g opacity=".22" stroke="#23e5ff" stroke-width="1">
+ <path d="M80 80H920M80 440H920M150 40V480M850 40V480"/>
+</g>
+<path d="M70 260 Q500 20 930 260 Q500 500 70 260Z" fill="#07131f" stroke="url(#metal)" stroke-width="20"/>
+<g clip-path="url(#eye)">
+ <rect x="70" y="30" width="860" height="460" fill="#020812"/>
+ <circle cx="500" cy="260" r="185" fill="url(#s)" stroke="#5befff" stroke-width="4" filter="url(#glow)"/>
+ <g stroke="#7ff8ff" stroke-width="5" opacity=".55">
+  <path d="M500 95V425M335 260H665M383 143L617 377M617 143L383 377"/>
+ </g>
+ <circle cx="500" cy="260" r="82" fill="url(#i)" stroke="#a7fbff" stroke-width="5"/>
+ <circle cx="500" cy="260" r="32" fill="#000713"/>
+ <circle cx="475" cy="230" r="16" fill="#dfffff" opacity=".9"/>
+ <g fill="none" stroke="#a9fbff" stroke-width="3" opacity=".65">
+  <circle cx="500" cy="260" r="130" stroke-dasharray="7 12"><animateTransform attributeName="transform" type="rotate" from="0 500 260" to="360 500 260" dur="8s" repeatCount="indefinite"/></circle>
+  <circle cx="500" cy="260" r="155" stroke-dasharray="3 18"><animateTransform attributeName="transform" type="rotate" from="360 500 260" to="0 500 260" dur="12s" repeatCount="indefinite"/></circle>
+ </g>
+ <rect x="70" y="0" width="860" height="0" fill="#dfffff" opacity=".5">
+  <animate attributeName="y" values="0;520;0" dur="4s" repeatCount="indefinite"/>
+  <animate attributeName="height" values="0;2;0" dur="4s" repeatCount="indefinite"/>
+ </rect>
+</g>
+<!-- mechanical eyelids -->
+<path d="M70 260 Q500 20 930 260" fill="none" stroke="#111d2a" stroke-width="34">
+ <animate attributeName="d" values="M70 260 Q500 20 930 260;M70 260 Q500 250 930 260;M70 260 Q500 20 930 260" keyTimes="0;.10;.22" dur="6s" repeatCount="indefinite"/>
+</path>
+<path d="M70 260 Q500 500 930 260" fill="none" stroke="#111d2a" stroke-width="34">
+ <animate attributeName="d" values="M70 260 Q500 500 930 260;M70 260 Q500 270 930 260;M70 260 Q500 500 930 260" keyTimes="0;.10;.22" dur="6s" repeatCount="indefinite"/>
+</path>
+<g font-family="monospace" fill="#8ef7ff">
+ <text x="70" y="55" font-size="18">ANIMATRONIC VISION // ONLINE</text>
+ <text x="930" y="55" text-anchor="end" font-size="18">SERVO • CV • ESP32</text>
+ <text x="70" y="485" font-size="15" opacity=".7">IRIS TRACKING: ACTIVE</text>
+ <text x="930" y="485" text-anchor="end" font-size="15" opacity=".7">BLINK CYCLE: AUTO</text>
+</g>
+</svg>
