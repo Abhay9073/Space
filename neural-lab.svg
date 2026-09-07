@@ -25,6 +25,6 @@
  <g fill="#22d3ee"><circle cx="170" cy="0" r="8"/><circle cx="-250" cy="0" r="8"/><circle cx="0" cy="-250" r="8"/></g>
  <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="30s" repeatCount="indefinite"/>
 </g>
-<text x="800" y="105" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="800" letter-spacing="1" fill="#f8fafc">Hii, I am Abhay Dadwal</text>
+
 <text x="800" y="650" text-anchor="middle" font-family="Arial" font-size="38" font-weight="800" fill="#f8fafc">AI • MACHINE LEARNING • COMPUTER VISION • BUILDING</text>
 </svg>
