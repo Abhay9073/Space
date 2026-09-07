@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360">
+<defs>
+ <radialGradient id="b"><stop stop-color="#111b45"/><stop offset=".65" stop-color="#050817"/><stop offset="1" stop-color="#01030a"/></radialGradient>
+ <filter id="g"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="360" rx="24" fill="url(#b)"/>
+<g fill="#fff">
+ <circle cx="80" cy="70" r="1.5"/><circle cx="180" cy="290" r="2"/><circle cx="350" cy="55" r="1"/><circle cx="920" cy="70" r="2"/><circle cx="1080" cy="290" r="1.5"/><circle cx="1140" cy="120" r="1"/>
+</g>
+<g transform="translate(600 180)">
+ <circle r="52" fill="#0f172a" stroke="#67e8f9" stroke-width="3" filter="url(#g)"/>
+ <circle r="20" fill="#22d3ee" opacity=".8"/>
+ <circle r="8" fill="#020617"/>
+ <ellipse rx="180" ry="58" fill="none" stroke="#334155" stroke-width="2"/>
+ <ellipse rx="270" ry="90" fill="none" stroke="#334155" stroke-width="2"/>
+ <ellipse rx="365" ry="125" fill="none" stroke="#334155" stroke-width="2"/>
+ <g>
+  <circle cx="180" cy="0" r="10" fill="#a78bfa"><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="7s" repeatCount="indefinite"/></circle>
+  <circle cx="0" cy="-270" r="10" fill="#22d3ee"><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="11s" repeatCount="indefinite"/></circle>
+  <circle cx="-365" cy="0" r="10" fill="#f59e0b"><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="15s" repeatCount="indefinite"/></circle>
+ </g>
+</g>
+<g font-family="Arial,Helvetica,sans-serif" fill="#e2e8f0" font-weight="700">
+ <text x="70" y="150" font-size="23">PYTHON</text><text x="70" y="178" font-size="15" fill="#94a3b8">AI • ML • DATA</text>
+ <text x="930" y="150" font-size="23">C / C++</text><text x="930" y="178" font-size="15" fill="#94a3b8">DSA • SYSTEMS</text>
+ <text x="70" y="235" font-size="23">COMPUTER VISION</text><text x="70" y="263" font-size="15" fill="#94a3b8">DETECTION • ROBOTICS</text>
+ <text x="900" y="235" font-size="23">WEB + DBMS</text><text x="900" y="263" font-size="15" fill="#94a3b8">HTML • JS • SQL</text>
+</g>
+<text x="600" y="42" text-anchor="middle" font-family="monospace" font-size="18" letter-spacing="4" fill="#a5b4fc">ABHAY9073 • AI / ML MISSION CONTROL</text>
+</svg>
